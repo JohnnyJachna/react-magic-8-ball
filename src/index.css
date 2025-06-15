@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box;
+  font-size: 25px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+:root {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1% auto;
+  padding: 0 0 2rem;
+  border-bottom: 1px solid rgb(175, 175, 175);
+  background-color: rgb(20, 20, 20);
+  color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  height: auto;
+  width: 25%;
+}
+
+.wrapper {
+  background-color: rgb(255, 255, 255);
+  margin: auto 1%;
+}
+
+.questionForm {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  column-gap: .2em;
+}
+
+input[type=text] {
+  border: 2px solid rgb(175, 175, 175);
+  font-size: .75em;
+}
+
+input[type=text]:focus {
+  border: 3px solid rgb(90, 123, 255);
+  outline: none;
+}
+
+button {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  border: 2px solid rgb(90, 123, 255);
+  margin: .25em auto;
+  font-size: .75em;
+}
+
+button:hover {
+  color: rgb(90, 123, 255);
+}
+
+.shakeButton:disabled {
+  color: white;
+  border: 2px solid rgb(175, 175, 175);
+}
+
