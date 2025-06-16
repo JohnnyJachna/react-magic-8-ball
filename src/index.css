@@ -59,10 +59,11 @@ button {
 
 button:hover {
   color: rgb(90, 123, 255);
+  cursor: pointer;
 }
 
 .shakeButton:disabled {
   color: white;
   border: 2px solid rgb(175, 175, 175);
+  cursor: not-allowed;
 }
-
