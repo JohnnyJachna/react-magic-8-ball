@@ -1,3 +1,5 @@
+React version of the magic 8 ball project. Build Carolina 2025 Spring Cohert
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
